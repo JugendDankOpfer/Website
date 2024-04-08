@@ -1,55 +1,53 @@
 <script>
-import {Line} from "vue-chartjs"
-import {Chart as ChartJS, Title, Tooltip, Legend, LineElement, PointElement, CategoryScale, LinearScale} from "chart.js";
+import {Bar} from "vue-chartjs"
+import {
+  Chart as ChartJS,
+  Title,
+  Tooltip,
+  Legend,
+  LineElement,
+  PointElement,
+  CategoryScale,
+  LinearScale,
+  BarElement
+} from "chart.js";
 
-ChartJS.register(Title, Tooltip, Legend, LineElement, CategoryScale, LinearScale, PointElement)
+ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale, PointElement)
 
 export default {
   name: "LineChart",
-  components: {Line},
+  components: {Bar},
   data() {
     return {
       chartData: {
-        labels: ["September", "Oktober", "November", "Dezember"],
+        labels: ["Blasewitz", "Laurentius", "Weißer Hirsch", "Mitarbeiter StaJuPfa"],
         datasets: [
           {
-            label: "Blasewitz",
-            data: [21, 42, 133.7, 300],
-            borderColor: ["gold"],
-            backgroundColor: ["gold"],
-            tension: 0.2
+            label: "2024",
+            data: [531, 479, 430, 242],
+            backgroundColor: "green"
+          }, {
+            label: "2023",
+            data: [511, 459, 410, 202],
+            backgroundColor: "blue"
           },
-          {
-            label: "Weißter Hirsch",
-            data: [25, 125, 200, 220],
-            borderColor: ["red"],
-            backgroundColor: ["red"],
-            tension: 0.2
-          },
-          {
-            label: "Laurentius",
-            data: [50, 75, 123, 260],
-            borderColor: ["lightblue"],
-            backgroundColor: ["lightblue"],
-            tension: 0.2
-          }
-        ]
+        ],
       },
       chartOptions: {
         responsive: true,
         // maintainAspectRatio: false
-        // plugins: {
-        //   legend: {display: false},
-        // },
-        // title: {
-        //   display: true,
-        //   text: "Jugenddankopfer"
-        // },
-        // scales: {
-        //   yAxis: [{
-        //     ticks: {beginAtZero: true}
-        //   }]
-        // }
+        plugins: {
+          legend: {display: true},
+        },
+        title: {
+          display: true,
+          text: "Jugenddankopfer"
+        },
+        scales: {
+          yAxis: [{
+            ticks: {beginAtZero: true}
+          }]
+        }
       }
     }
   }
@@ -59,7 +57,7 @@ export default {
 <template>
   <div class="about">
     <h1>This is an about page</h1>
-    <Line id="chartID" :options="chartOptions" :data="chartData"/>
+    <Bar id="chartID" :options="chartOptions" :data="chartData"/>
   </div>
 </template>
 
