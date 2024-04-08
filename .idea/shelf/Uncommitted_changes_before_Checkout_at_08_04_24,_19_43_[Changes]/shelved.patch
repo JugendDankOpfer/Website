@@ -1,0 +1,231 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"79aa77f3-b4c4-4046-83e7-0aad2161c3ec\" name=\"Changes\" comment=\"Project initialization\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/package.json\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/package.json\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/App.vue\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/App.vue\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main.js\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/router/index.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/router/router.js\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/views/AboutView.vue\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/views/Scoreboard.vue\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;Fridolin42&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">\n    <option name=\"selectedUrlAndAccountId\">\n      <UrlAndAccount>\n        <option name=\"accountId\" value=\"f8603a4d-7e45-4df8-95a6-649c95109279\" />\n        <option name=\"url\" value=\"https://github.com/JugendDankOpfer/Website.git\" />\n      </UrlAndAccount>\n    </option>\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 5\n}</component>\n  <component name=\"ProjectId\" id=\"2dcg9s2hBJEPgb25oToTzbFhdfN\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/home/fridolin/WebstormProjects/JugendDankOpfer&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;npm.dev.executor&quot;: &quot;Run&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,\n    &quot;ts.external.directory.path&quot;: &quot;/home/fridolin/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"dev\" type=\"js.build_tools.npm\" temporary=\"true\" nameIsGenerated=\"true\">\n      <package-json value=\"$PROJECT_DIR$/package.json\" />\n      <command value=\"run\" />\n      <scripts>\n        <script value=\"dev\" />\n      </scripts>\n      <node-interpreter value=\"project\" />\n      <envs />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"npm.dev\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"79aa77f3-b4c4-4046-83e7-0aad2161c3ec\" name=\"Changes\" comment=\"\" />\n      <created>1710312631558</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1710312631558</updated>\n      <workItem from=\"1710312632633\" duration=\"2059000\" />\n      <workItem from=\"1710315034346\" duration=\"1507000\" />\n      <workItem from=\"1710397111149\" duration=\"1813000\" />\n      <workItem from=\"1711045170367\" duration=\"3852000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Project initialization\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1710315363213</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1710315363213</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Project initialization\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Project initialization\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,20 +4,32 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="79aa77f3-b4c4-4046-83e7-0aad2161c3ec" name="Changes" comment="Project initialization">
++    <list default="true" id="79aa77f3-b4c4-4046-83e7-0aad2161c3ec" name="Changes" comment="HeadLine">
++      <change afterPath="$PROJECT_DIR$/src/views/ScoreCharts/LineScoreboard.vue" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/views/ScoreView.vue" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/views/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Scoreboard.vue" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/views/Scoreboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ScoreCharts/BarScoreboard.vue" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Vue Composition API Component" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+@@ -46,25 +58,34 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;/home/fridolin/WebstormProjects/JugendDankOpfer&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+-    &quot;ts.external.directory.path&quot;: &quot;/home/fridolin/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "git-widget-placeholder": "scoreboard",
++    "last_opened_file_path": "/home/fridolin/WebstormProjects/JugendDankOpfer/src/views/ScoreCharts",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "npm.dev.executor": "Run",
++    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
++    "ts.external.directory.path": "/home/fridolin/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-impl/jsLanguageServicesImpl/external",
++    "vue.rearranger.settings.migration": "true"
++  },
++  "keyToStringList": {
++    "vue.recent.templates": [
++      "Vue Composition API Component"
++    ]
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/src/views/ScoreCharts" />
++    </key>
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/src/views/ScoreCharts" />
+       <recent name="$PROJECT_DIR$" />
+     </key>
+   </component>
+@@ -96,7 +117,11 @@
+       <workItem from="1710312632633" duration="2059000" />
+       <workItem from="1710315034346" duration="1507000" />
+       <workItem from="1710397111149" duration="1813000" />
+-      <workItem from="1711045170367" duration="3852000" />
++      <workItem from="1711045170367" duration="4974000" />
++      <workItem from="1711088353735" duration="399000" />
++      <workItem from="1711130061252" duration="1224000" />
++      <workItem from="1711543203454" duration="599000" />
++      <workItem from="1711724753513" duration="2010000" />
+     </task>
+     <task id="LOCAL-00001" summary="Project initialization">
+       <option name="closed" value="true" />
+@@ -106,7 +131,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1710315363213</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Line Chart initialisation, hard coded">
++      <option name="closed" value="true" />
++      <created>1711049089230</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1711049089230</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -125,6 +158,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Project initialization" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Project initialization" />
++    <MESSAGE value="Line Chart initialisation, hard coded" />
++    <option name="LAST_COMMIT_MESSAGE" value="Line Chart initialisation, hard coded" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/router/router.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import { createRouter, createMemoryHistory} from 'vue-router'\nimport HomeView from '../views/HomeView.vue'\n\nconst router = createRouter({\n  history: createMemoryHistory(import.meta.env.BASE_URL),\n  routes: [\n    {\n      path: '/',\n      name: 'home',\n      component: HomeView\n    },\n    {\n      path: '/scoreboard',\n      name: 'Scoreboard',\n      // route level code-splitting\n      // this generates a separate chunk (About.[hash].js) for this route\n      // which is lazy-loaded when the route is visited.\n      component: () => import('../views/Scoreboard.vue')\n    }\n  ]\n})\n\nexport default router\n
+===================================================================
+diff --git a/src/router/router.js b/src/router/router.js
+--- a/src/router/router.js	
++++ b/src/router/router.js	
+@@ -15,7 +15,7 @@
+       // route level code-splitting
+       // this generates a separate chunk (About.[hash].js) for this route
+       // which is lazy-loaded when the route is visited.
+-      component: () => import('../views/Scoreboard.vue')
++      component: () => import('../views/ScoreView.vue')
+     }
+   ]
+ })
+Index: src/views/Scoreboard.vue
+===================================================================
+diff --git a/src/views/Scoreboard.vue b/src/views/ScoreCharts/BarScoreboard.vue
+rename from src/views/Scoreboard.vue
+rename to src/views/ScoreCharts/BarScoreboard.vue
+--- a/src/views/Scoreboard.vue	
++++ b/src/views/ScoreCharts/BarScoreboard.vue	
+@@ -1,37 +1,34 @@
+ <script>
+-import {Line} from "vue-chartjs"
+-import {Chart as ChartJS, Title, Tooltip, Legend, LineElement, PointElement, CategoryScale, LinearScale} from "chart.js";
++import {Bar} from "vue-chartjs"
++import {
++  Chart as ChartJS,
++  Title,
++  Tooltip,
++  Legend,
++  CategoryScale,
++  LinearScale,
++  BarElement
++} from "chart.js";
+ 
+-ChartJS.register(Title, Tooltip, Legend, LineElement, CategoryScale, LinearScale, PointElement)
++ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
+ 
+ export default {
+-  name: "LineChart",
+-  components: {Line},
++  name: "BarChart",
++  components: {Bar},
+   data() {
+     return {
+       chartData: {
+-        labels: ["September", "Oktober", "November", "Dezember"],
++        labels: ["Blasewitz", "Laurentius", "Süüüüüüüüd"],
+         datasets: [
+           {
+-            label: "Blasewitz",
+-            data: [21, 42, 133.7, 300],
+-            borderColor: ["gold"],
+-            backgroundColor: ["gold"],
+-            tension: 0.2
+-          },
+-          {
+-            label: "Weißter Hirsch",
+-            data: [25, 125, 200, 220],
+-            borderColor: ["red"],
+-            backgroundColor: ["red"],
+-            tension: 0.2
++            data: [40, 20, 12],
++            backgroundColor: "green",
++            label: "2024"
+           },
+           {
+-            label: "Laurentius",
+-            data: [50, 75, 123, 260],
+-            borderColor: ["lightblue"],
+-            backgroundColor: ["lightblue"],
+-            tension: 0.2
++            data: [30, 35, 20],
++            backgroundColor: "blue",
++            label: "2023"
+           }
+         ]
+       },
+@@ -59,7 +56,7 @@
+ <template>
+   <div class="about">
+     <h1>This is an about page</h1>
+-    <Line id="chartID" :options="chartOptions" :data="chartData"/>
++    <Bar id="chartID" :options="chartOptions" :data="chartData"/>
+   </div>
+ </template>
+ 
