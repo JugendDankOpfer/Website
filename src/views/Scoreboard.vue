@@ -24,11 +24,11 @@ export default {
         datasets: [
           {
             label: "2024",
-            data: [531, 479, 430, 242],
+            data: [531, 479, 230, 242],
             backgroundColor: "green"
           }, {
             label: "2023",
-            data: [511, 459, 410, 202],
+            data: [211, 359, 410, 102],
             backgroundColor: "blue"
           },
         ],
@@ -56,7 +56,7 @@ export default {
 
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Die Vorläufigen Ergebnisse</h1>
     <Bar id="chartID" :options="chartOptions" :data="chartData"/>
   </div>
 </template>
