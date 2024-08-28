@@ -1,23 +1,25 @@
-import { createRouter, createMemoryHistory} from 'vue-router'
+import {createRouter, createMemoryHistory} from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
-  history: createMemoryHistory(import.meta.env.BASE_URL),
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: HomeView
-    },
-    {
-      path: '/scoreboard',
-      name: 'Scoreboard',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/Scoreboard.vue')
-    }
-  ]
+    history: createMemoryHistory(import.meta.env.BASE_URL),
+    routes: [
+        {
+            path: '/',
+            name: 'home',
+            component: HomeView
+        },
+        {
+            path: '/history',
+            name: 'Geschichte',
+            component: () => import('../views/History.vue')
+        },
+        {
+            path: "/quiz",
+            name: "Quiz",
+            component: () => import("../views/Quiz.vue")
+        }
+    ]
 })
 
 export default router

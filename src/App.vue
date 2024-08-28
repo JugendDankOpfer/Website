@@ -5,14 +5,16 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="@/assets/JuDaOLogo.png" width="125" height="125" />
 
     <div class="wrapper">
       <HelloWorld msg="JugendDankOpfer" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/scoreboard">About</RouterLink>
+        <RouterLink to="/current">Aktuelles JuDaO</RouterLink>
+        <RouterLink to="/history">Geschchte</RouterLink>
+        <RouterLink to="/Quiz">Quiz</RouterLink>
       </nav>
     </div>
   </header>
@@ -24,6 +26,7 @@ import HelloWorld from './components/HelloWorld.vue'
 header {
   line-height: 1.5;
   max-height: 100vh;
+  width: max-content;
 }
 
 .logo {
@@ -32,7 +35,6 @@ header {
 }
 
 nav {
-  width: 100%;
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
@@ -71,6 +73,7 @@ nav a:first-of-type {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
+    flex-direction: column;
   }
 
   nav {
