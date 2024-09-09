@@ -1,4 +1,8 @@
 import './assets/main.css'
+import './assets/JuDaOLogo.png'
+import './assets/symbols/cake.svg'
+import './assets/symbols/lock.svg'
+import './assets/symbols/trashcan.svg'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
