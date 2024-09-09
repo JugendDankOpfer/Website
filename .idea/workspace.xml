@@ -4,18 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79aa77f3-b4c4-4046-83e7-0aad2161c3ec" name="Changes" comment="ShowCase BJK 22.4.23">
-      <change afterPath="$PROJECT_DIR$/src/assets/JuDaOLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/host.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stores/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/History.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Quiz.vue" afterDir="false" />
+    <list default="true" id="79aa77f3-b4c4-4046-83e7-0aad2161c3ec" name="Changes" comment="Challenge Overview">
+      <change afterPath="$PROJECT_DIR$/src/assets/symbols/cake.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/symbols/lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/symbols/trashcan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Challenge.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/challenges.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ChallangeView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/host.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/host.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Scoreboard.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/currentJuDaO.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Vue Composition API Component" />
+        <option value="Vue Options API Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -77,13 +85,14 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.build.executor&quot;: &quot;Run&quot;,
     &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.webpack&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/home/fridolin/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+      &quot;Vue Composition API Component&quot;,
+      &quot;Vue Options API Component&quot;
     ]
   }
 }</component>
@@ -92,10 +101,11 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/symbols" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -118,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +157,14 @@
       <workItem from="1724658226903" duration="1215000" />
       <workItem from="1724688764675" duration="1035000" />
       <workItem from="1724751224546" duration="601000" />
+      <workItem from="1724823404309" duration="985000" />
+      <workItem from="1724842590817" duration="6963000" />
+      <workItem from="1725099907801" duration="494000" />
+      <workItem from="1725539714879" duration="3112000" />
+      <workItem from="1725542946062" duration="8029000" />
+      <workItem from="1725599811521" duration="3799000" />
+      <workItem from="1725619827800" duration="2020000" />
+      <workItem from="1725895337941" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="Project initialization">
       <option name="closed" value="true" />
@@ -164,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713799289520</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dynamic Quiz Engine and Static Chart in History">
+      <option name="closed" value="true" />
+      <created>1724823703322</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724823703322</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +210,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project initialization" />
     <MESSAGE value="ShowCase BJK 22.4.23" />
-    <option name="LAST_COMMIT_MESSAGE" value="ShowCase BJK 22.4.23" />
+    <MESSAGE value="Dynamic Quiz Engine and Static Chart in History" />
+    <MESSAGE value="Challenge Overview" />
+    <option name="LAST_COMMIT_MESSAGE" value="Challenge Overview" />
   </component>
 </project>

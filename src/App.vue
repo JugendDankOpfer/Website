@@ -4,20 +4,20 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/JuDaOLogo.png" width="125" height="125" />
+<!--  <header>-->
+<!--    <img alt="Vue logo" class="logo" src="@/assets/JuDaOLogo.png" width="125" height="125" />-->
 
-    <div class="wrapper">
-      <HelloWorld msg="JugendDankOpfer" />
+<!--    <div class="wrapper">-->
+<!--      <HelloWorld msg="JugendDankOpfer" />-->
 
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/current">Aktuelles JuDaO</RouterLink>
-        <RouterLink to="/history">Geschchte</RouterLink>
-        <RouterLink to="/Quiz">Quiz</RouterLink>
-      </nav>
-    </div>
-  </header>
+<!--      <nav>-->
+<!--        <RouterLink to="/">Home</RouterLink>-->
+<!--        <RouterLink to="/current">Aktuelles JuDaO</RouterLink>-->
+<!--        <RouterLink to="/history">Geschchte</RouterLink>-->
+<!--        <RouterLink to="/Quiz">Quiz</RouterLink>-->
+<!--      </nav>-->
+<!--    </div>-->
+<!--  </header>-->
 
   <RouterView />
 </template>

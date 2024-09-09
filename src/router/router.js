@@ -1,5 +1,5 @@
 import {createRouter, createMemoryHistory} from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+const homeView = import("../views/Home.vue")
 
 const router = createRouter({
     history: createMemoryHistory(import.meta.env.BASE_URL),
@@ -7,7 +7,12 @@ const router = createRouter({
         {
             path: '/',
             name: 'home',
-            component: HomeView
+            component: homeView
+        },
+        {
+            path: "/current",
+            name: "Aktuelles JuDaO",
+            component: () => import('../views/currentJuDaO.vue')
         },
         {
             path: '/history',
